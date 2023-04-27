@@ -1,0 +1,109 @@
+.container {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  background-image: linear-gradient(
+    hsla(218, 17%, 16%, 1),
+    hsla(214, 25%, 12%, 1)
+  );
+
+  text-align: left;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.star {
+  background-color: var(--clr-neutral-600);
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.title {
+  color: var(--clr-neutral-0);
+  font-size: 1.5rem;
+}
+
+.description {
+  color: var(--clr-neutral-500);
+  font-size: 0.8rem;
+  margin-block: 2rem;
+}
+
+.grp-btn {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.rating {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--clr-neutral-600);
+  border-radius: 50%;
+  color: var(--clr-neutral-400);
+}
+
+.rating:hover {
+  background-color: var(--clr-neutral-500);
+  color: var(--clr-neutral-0);
+}
+
+.rating:focus {
+  background-color: var(--clr-primary);
+  color: var(--clr-neutral-0);
+}
+
+.rating.active {
+  background-color: var(--clr-primary);
+  color: var(--clr-neutral-0);
+}
+
+p {
+  color: white;
+}
+
+.submit {
+  width: 100%;
+  background-color: var(--clr-primary);
+  color: var(--clr-neutral-0);
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+.submit:hover {
+  background-color: var(--clr-neutral-0);
+  color: var(--clr-primary);
+}
+
+/* Submitted form */
+
+.container.submitted {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.submitted__close {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  font-size: 1.5rem;
+  color: var(--clr-neutral-500);
+  cursor: pointer;
+}
+.submitted__close:hover {
+  color: var(--clr-primary);
+}
+
+.submitted__subtitle {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: var(--clr-primary);
+  border-radius: 1rem;
+  background-color: hsla(213, 18%, 19%, 1);
+  padding: 0.5rem 1.25rem;
+}
+
+.submitted__img {
+  width: 50%;
+}
