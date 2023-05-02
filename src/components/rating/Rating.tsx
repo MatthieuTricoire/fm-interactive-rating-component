@@ -22,7 +22,7 @@ const Rating = () => {
 
   const handleSubmitRating = (e: React.FormEvent) => {
     e.preventDefault();
-    // setIsSubmit(!isSubmit);
+
     setSubmitted(true);
   };
 
