@@ -29,14 +29,11 @@ main {
 }
 
 button {
-  /* display: inline-flex;
-  position: relative;
-  white-space: nowrap;
-  text-decoration: none; */
   line-height: 1;
   font-size: var(--btn-font-size);
   outline: none;
   border: none;
+  cursor: pointer;
 }
 
 h1 {

@@ -4,6 +4,9 @@ import "./rating.css";
 import star from "../../assets/images/icon-star.svg";
 import thankYou from "../../assets/images/illustration-thank-you.svg";
 
+// react icon
+import { AiOutlineCloseCircle } from "react-icons/ai";
+
 import { useState } from "react";
 
 const Rating = () => {
@@ -55,7 +58,7 @@ const Rating = () => {
   ) : (
     <div className="container submitted">
       <div className="submitted__close" onClick={() => handleGoBackForm()}>
-        X
+        <AiOutlineCloseCircle />
       </div>
       <img src={thankYou} alt="" className="submitted__img" />
       <span className="submitted__subtitle">
